@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles.css" rel="stylesheet">
+    <link href="bootstrap-grid.css" rel="stylesheet">
+    <link href="-debugger.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Karla&display=swap" rel="stylesheet">
+
+    <script src="script.js" defer></script>
+    
+    <title>Basic Calculator</title>
+</head>
+<body>
+    <div class="container">
+        <div class="calculator-grid col-6 offset-3">
+            <div class="row">
+                <div class="output-screen">
+                    <div data-prevOperand class="prev-operand"></div>
+                    <div data-curOperand class="cur-operand"></div>
+                </div>
+            </div>
+            <div class="row">
+                <button data-allClear class="col-6">AC</button>
+                <button data-delete class="col-3">DEL</button>
+                <button data-operation class="col-3">/</button>
+            </div>
+            <div class="row">
+                <button data-number class="col-3">1</button>
+                <button data-number class="col-3">2</button>
+                <button data-number class="col-3">3</button>
+                <button data-operation class="col-3">*</button>
+            </div>
+            <div class="row">
+                <button data-number class="col-3">4</button>
+                <button data-number class="col-3">5</button>
+                <button data-number class="col-3">6</button>
+                <button data-operation class="col-3">+</button>
+            </div>
+            <div class="row">
+                <button data-number class="col-3">7</button>
+                <button data-number class="col-3">8</button>
+                <button data-number class="col-3">9</button>
+                <button data-operation class="col-3">-</button>
+            </div>
+            <div class="row">
+                <button data-number class="col-3">.</button>
+                <button data-number class="col-3">0</button>
+                <button data-equals class="col-6">=</button>
+            </div>
+                
+        </div>
+    </div>
+    
+</body>
+</html>
